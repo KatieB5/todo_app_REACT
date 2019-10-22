@@ -4,7 +4,7 @@ class TaskItem extends React.Component {
     render() {
         return (
             <div className="row">
-                <div className="col-2">
+                <div className="col-2 TaskItemText">
                     <p>{this.props.text}</p>
                 </div>
                 <div className="col-1" id="complete_button">
