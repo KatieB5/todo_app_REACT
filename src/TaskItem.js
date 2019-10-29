@@ -9,15 +9,15 @@ class TaskItem extends React.Component {
                     {this.props.text}
                     </p>
                 </div>
-                <div className="col-3" id="complete_button">
+                <div className="col-3">
                     {!this.props.completed && (
-                        <button type="button" className="btn btn-success"disabled={this.props.completed}>
+                        <button type="button" className="btn btn-success" id="complete_button" disabled={this.props.completed}>
                         Complete
                         </button>
                     )}
                 </div>
-                <div className="col-3" id="delete_button">
-                    <button className="btn btn-danger">Delete</button>
+                <div className="col-3">
+                    <button className="btn btn-danger" id="delete_button"> <img src="https://img.icons8.com/bubbles/2x/delete-sign.png" height="70px"/></button>
                 </div>
             </div>
         )

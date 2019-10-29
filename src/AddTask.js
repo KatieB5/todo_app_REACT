@@ -23,7 +23,7 @@ class AddTask extends React.Component {
 
     render() {
         return (
-            <form className="form-inline">
+            <form className="form-inline" id="addItemForm">
             <div className="form-group mx-sm-3 mb-2">
                 <input
                 type="text"
@@ -34,7 +34,7 @@ class AddTask extends React.Component {
                 onChange={this.updateNewItemText} >
                 </input>
             </div>
-            <button type="submit" className="btn btn-primary mb-2" onClick={this.handleClick} disabled={this.state.newItemText.length === 0}>Add task</button>
+            <button type="submit" className="btn btn-primary mb-2" id="addTaskButton" onClick={this.handleClick} disabled={this.state.newItemText.length === 0}>Add task</button>
         </form>
         )
     }

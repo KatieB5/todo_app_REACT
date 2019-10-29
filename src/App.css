@@ -1,63 +1,32 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+body {
+  background-color: white;
 }
 
 .remainingTask {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.btn-success {
-  padding: 10px;
-  margin: 10px;
-  float: left;
+#complete_button {
   text-align: center;
   font-size: 16px;
   background-color: #6F9CEB;
   border-color: #6F9CEB;
 }
 
-.btn-danger {
-  padding: 10px;
-  margin: 10px;
-  float: left;
-  text-align: center;
-  font-size: 16px;
-  background-color: #EA638C;
-  border-color: #EA638C;
+#delete_button {
+  background-color: transparent;
+  border: transparent;
 }
 
-.btn-primary {
-  padding: 10px;
-  margin: 10px;
-  float: left;
+#addTaskButton {
   text-align: center;
   font-size: 16px;
+  font-weight: bold;
   background-color: #306BAC;
   border-color: #306BAC;
 }
 
 .TaskItemText {
-  padding: 10px;
-  margin-top: 10px;
   font-size: 16px;
 }
 
@@ -65,20 +34,16 @@ h1 {
   text-align: center;
 }
 
-/* #intro {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-} */
+#incompleteTaskContainer {
+  background-color: #FFD9DA;
+  border-radius: 5px;  
+}
 
-/* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { ... } */
+#completeTaskContainer {
+  background-color: #FDF0F1;
+  border-radius: 5px;  
+}
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { ... } */
-
-/* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) { ... } */
-
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
+#addItemForm {
+  justify-content: center;
+}

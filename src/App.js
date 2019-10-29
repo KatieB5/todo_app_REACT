@@ -51,14 +51,18 @@ class App extends React.Component {
               <RemainingTask count={incompleteTasks.length} />
             </div>
           <AddTask addNewTaskFunc={this.addNewTask} />
+          <div className="container p-3 m-3" id="incompleteTaskContainer">
           <h3>Things you need to do</h3>
             {incompleteTasks.map(task => {
               return <TaskItem text={task.text} completed={task.completed} key={task.id} />
             })}
+          </div>
+          <div className="container p-3 m-3" id="completeTaskContainer">
           <h3>Things you've already done</h3>
             {completedTasks.map(task => {
               return <TaskItem text={task.text} completed={task.completed} key={task.id} />
             })}
+          </div>
         </div>
       )
     }
