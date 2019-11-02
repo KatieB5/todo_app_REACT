@@ -1,8 +1,10 @@
-import React from "react"
+import React from "react";
+import moment from "moment";
 
 class AddTask extends React.Component {
     state = {
-      newItemText: ""
+      newItemText: "",
+      dateSelected: moment().format("YYYY-MM-DD")
     };
   
     // functions which update state must always live where the state lives
@@ -21,6 +23,13 @@ class AddTask extends React.Component {
       });
     };
 
+    handleDateChange = e => {
+        console.log(e.target.value);
+        this.setState({
+          dateSelected: e.target.value
+        });
+    }
+
     render() {
         return (
             <form className="form-inline" id="addItemForm">
@@ -33,6 +42,9 @@ class AddTask extends React.Component {
                 value={this.state.newItemText}
                 onChange={this.updateNewItemText} >
                 </input>
+            </div>
+            <div className="form-group mx-sm-3 mb-2">
+                <input type="date" onChange={this.handleDateChange}></input>
             </div>
             <button type="submit" className="btn btn-primary mb-2" id="addTaskButton" onClick={this.handleClick} disabled={this.state.newItemText.length === 0}>Add task</button>
         </form>
