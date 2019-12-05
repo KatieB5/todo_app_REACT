@@ -17,9 +17,10 @@ class AddTask extends React.Component {
   
     handleClick = (event) => {
       event.preventDefault();
-      this.props.addNewTaskFunc(this.state.newItemText);
+      this.props.addNewTaskFunc(this.state.newItemText, this.state.dateSelected);
       this.setState({
-        newItemText: ""
+        newItemText: "", 
+        dateSelected: moment().format("YYYY-MM-DD")
       });
     };
 
