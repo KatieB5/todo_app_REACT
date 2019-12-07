@@ -1,5 +1,4 @@
 import React from 'react';
-import uuid from "uuid/v4";
 import axios from "axios";
 import moment from "moment";
 import Header from "./Header";

@@ -6,7 +6,7 @@ class RemainingTask extends React.Component {
             <div className="row">
                 <div className="col-12">
                     <p>You have {this.props.count} incomplete tasks</p>
-                </div>    
+                </div>
             </div>
         )
     }
