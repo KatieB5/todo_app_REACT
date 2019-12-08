@@ -26,11 +26,11 @@ class TaskItem extends React.Component {
                 </div>
                 <div className="col-2">
                     {!this.props.completed && (
-                        <button type="button" className="btn btn-success" id="complete_button" disabled={this.props.completed} onClick={this.handleComplete}> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BlueFlat_tick_icon.svg/512px-BlueFlat_tick_icon.svg.png" height="70px" /></button>
+                        <button type="button" className="btn btn-success" id="complete_button" disabled={this.props.completed} onClick={this.handleComplete}> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/BlueFlat_tick_icon.svg/512px-BlueFlat_tick_icon.svg.png" height="70px" alt="Completed icon"/></button>
                     )}
                 </div>
                 <div className="col-2">
-                    <button className="btn btn-danger" id="delete_button" onClick={this.handleDelete}> <img src="https://img.icons8.com/plasticine/2x/delete-forever.png" height="90px" /></button>
+                    <button className="btn btn-danger" id="delete_button" onClick={this.handleDelete}> <img src="https://img.icons8.com/plasticine/2x/delete-forever.png" height="90px" alt="Rubbish bin icon"/></button>
                 </div>
             </div>
         )
