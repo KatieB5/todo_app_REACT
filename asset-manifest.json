@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a9e7131.chunk.css",
-    "main.js": "/static/js/main.c9ca549e.chunk.js",
-    "main.js.map": "/static/js/main.c9ca549e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.28b6cabb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.28b6cabb.js.map",
-    "static/js/2.54fa4881.chunk.js": "/static/js/2.54fa4881.chunk.js",
-    "static/js/2.54fa4881.chunk.js.map": "/static/js/2.54fa4881.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6b20ad193ffd3efd3c625dc118c4ef3a.js": "/precache-manifest.6b20ad193ffd3efd3c625dc118c4ef3a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4a9e7131.chunk.css.map": "/static/css/main.4a9e7131.chunk.css.map"
+    "main.css": "/todo_app_REACT/static/css/main.4a9e7131.chunk.css",
+    "main.js": "/todo_app_REACT/static/js/main.8d36091c.chunk.js",
+    "main.js.map": "/todo_app_REACT/static/js/main.8d36091c.chunk.js.map",
+    "runtime-main.js": "/todo_app_REACT/static/js/runtime-main.28d8df63.js",
+    "runtime-main.js.map": "/todo_app_REACT/static/js/runtime-main.28d8df63.js.map",
+    "static/js/2.3aff1b5f.chunk.js": "/todo_app_REACT/static/js/2.3aff1b5f.chunk.js",
+    "static/js/2.3aff1b5f.chunk.js.map": "/todo_app_REACT/static/js/2.3aff1b5f.chunk.js.map",
+    "index.html": "/todo_app_REACT/index.html",
+    "precache-manifest.f105ea990b65df608339be35d27c7af9.js": "/todo_app_REACT/precache-manifest.f105ea990b65df608339be35d27c7af9.js",
+    "service-worker.js": "/todo_app_REACT/service-worker.js",
+    "static/css/main.4a9e7131.chunk.css.map": "/todo_app_REACT/static/css/main.4a9e7131.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.28b6cabb.js",
-    "static/js/2.54fa4881.chunk.js",
+    "static/js/runtime-main.28d8df63.js",
+    "static/js/2.3aff1b5f.chunk.js",
     "static/css/main.4a9e7131.chunk.css",
-    "static/js/main.c9ca549e.chunk.js"
+    "static/js/main.8d36091c.chunk.js"
   ]
 }
